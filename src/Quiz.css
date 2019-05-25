@@ -1,0 +1,37 @@
+.jumbotron {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+.row {
+  margin: 0px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.image {
+  height: 300px;
+  border-radius: .3rem;
+} 
+
+.btn-group-vertical  {
+  width: 100%;
+}
+
+.scoreHeight {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-click {
+  pointer-events: none;
+}
+
+.btn-group-vertical button:not(:last-child) {
+  margin-bottom: 15px;
+}
